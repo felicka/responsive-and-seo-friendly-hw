@@ -22,6 +22,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  padding: 5px;
 }
 
 h3 {
@@ -108,4 +109,9 @@ p {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+@media (max-width: 400px) {
+  .primary-link {
+    text-align: center;
+  }
 }
